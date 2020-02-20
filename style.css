@@ -1,10 +1,12 @@
 html,
 body {
   margin: 0;
+  color: #405075;
   background-color: #fff0d7;
+  font-family: "Tenor Sans", sans-serif;
 }
 
-main {
+.index {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,11 +21,45 @@ main {
 }
 
 .motto {
-  color: #405075;
   font-weight: normal;
-  font-family: "Tenor Sans", sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: #405075;
+}
+
+.about {
+  margin: 5vh 5vh 5vh 0;
+  font-family: "Tenor Sans", sans-serif;
+  display: flex;
+}
+
+.anabel {
+  flex: 3;
+}
+
+.nathalie {
+  flex: 2;
+}
+
+.founder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.founder h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 3vw;
+  height: 10vh;
+  margin: 0;
+}
+
+.founder img {
+  width: 30vw;
+  border: 3px solid #59695f;
 }
