@@ -1,27 +1,31 @@
 html,
 body {
   margin: 0;
-  color: #405075;
-  background-color: #fff0d7;
   font-family: "Tenor Sans", sans-serif;
 }
 
 .index {
+  color: #405075;
+  background-color: #fff0d7;
+}
+
+.index main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .logo {
-  width: 40vw;
+  width: 28vw;
 }
 
 .wordmark {
-  width: 80vw;
+  width: 55vw;
 }
 
 .motto {
   font-weight: normal;
+  font-size: 3vw;
 }
 
 a {
@@ -32,6 +36,15 @@ a {
 .about {
   margin: 5vh 5vh 5vh 0;
   font-family: "Tenor Sans", sans-serif;
+  background-color: #dc966d;
+  color: #fff0d7;
+}
+
+.about a {
+  color: #fff0d7;
+}
+
+.about main {
   display: flex;
 }
 
@@ -54,12 +67,12 @@ a {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  font-size: 3vw;
+  font-size: 2.5vw;
   height: 10vh;
   margin: 0;
 }
 
 .founder img {
-  width: 30vw;
+  width: 20vw;
   border: 3px solid #59695f;
 }
